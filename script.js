@@ -24,9 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    image.addEventListener("dragend", () => {
-      draggedElement.classList.remove("selected");
-      draggedElement = null;
-    });
+   
   });
 });
